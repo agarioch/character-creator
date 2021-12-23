@@ -29,3 +29,16 @@
 
 .controlColumn {
 }
+
+@media screen and (max-width: 600px) {
+  .controlColumn {
+    display: flex;
+    overflow-x: auto;
+    position: fixed;
+    bottom: 30%;
+    width: 100%;
+  }
+  .controlColumn > div {
+    margin-right: 20px;
+  }
+}

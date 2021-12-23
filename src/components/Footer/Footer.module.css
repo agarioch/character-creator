@@ -8,4 +8,9 @@
 .footer a {
   color: inherit;
 }
-
+@media screen and (max-width: 600px) {
+  .footer {
+    bottom: 0;
+    position: fixed;
+  }
+}
