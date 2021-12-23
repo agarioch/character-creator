@@ -7,6 +7,7 @@ import {
 import Character from '../Character';
 import MaxWidthWrapper from '../MaxWidthWrapper';
 import ControlPane from '../ControlPane';
+import PerspectiveBar from '../PerspectiveBar/PerspectiveBar';
 
 import {
   bodyOptions,
@@ -30,6 +31,7 @@ function App() {
 
   return (
     <main className={styles.characterEditor}>
+      <PerspectiveBar />
       <MaxWidthWrapper className={styles.maxWidthWrapper}>
         <header className={styles.header}>
           <h1 className={styles.title}>Create your Character</h1>
